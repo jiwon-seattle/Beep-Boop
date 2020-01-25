@@ -37,8 +37,9 @@ $(document).ready(function() {
       integers.push(x)
     }
 
-    $("#result1").append(result + ",");
-    $("#result2").text(integers)
+    $("#numberResult").text(integers)
+    $("#notiResult").append(result + ",");
+
   });
 
 });
