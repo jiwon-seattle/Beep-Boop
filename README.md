@@ -23,7 +23,7 @@ A website created with JavaScript and HTML where a user can submit a number and 
 
 ## Setup/Installation Requirements
 
-1. Clone this repository.
+1. Clone this repository using https://github.com/jiwon-seattle/Beep-Boop.git.
 2. On your browser, navigate submitting numbers and enjoy!
 
 ## Known Bugs
