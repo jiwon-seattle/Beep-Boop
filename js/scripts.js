@@ -14,41 +14,33 @@ $(document).ready(function() {
     var two = /[2]/i;
     var three = /[3]/i;
 
-
-      if (num === "13") {
+    for (i = 0; i <= num; i++) {
+      if (i === 13) {
         result.push("I'm sorry, Dave. I'm afraid I can't do that.")
-      } else if (num === "21") {
+      } else if (i === 21) {
         result.push(boop)
-      } else if (num === "32") {
+      } else if (i === 32) {
         result.push("I'm sorry, Dave. I'm afraid I can't do that.")
-      } else if (num === "0") {
+      } else if (i === 0) {
         result.push('"0"')
       } else {
-        for (i = 0; i < num.length; i++) {
-          if (num[i].match(one)) {
+          if (i.toString().match(one)) {
             result.push(beep)
-            console.log(result)
-            break
-          } else if (num[i].match(two)) {
+          } else if (i.toString().match(two)) {
             result.push(boop)
-            break
-          } else if (num[i].match(three)) {
+          } else if (i.toString().match(three)) {
             result.push(sorry)
-            break
           } else {
-            result.push(num)
-            break
+            result.push(i)
           }
-        }
       }
+    }
 
     for (x=0; x <= number; x++) {
       integers.push(x)
     }
-
     $("#numberResult").text(integers)
-    $("#notiResult").append(result + ",");
-
+    $("#notiResult").text(result)
+    
   });
-
 });
