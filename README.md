@@ -12,7 +12,6 @@ A website created with JavaScript and HTML where a user can submit a number and 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Homepage** | User accesses localhost:5004 | Homepage with user input form |
 | **Program returns a range of numbers from 0 to the users inputted number** | User input: "5" | Output: "0, 1, 2, 3, 4" |
 | **Program returns message "Beep!" for numbers that contain a 1**| User Input: "1" | Output: "Beep!" |
 | **Program returns message "Boop!" for numbers that contain a 2**| Input: "2" | Output: "Boop" |
