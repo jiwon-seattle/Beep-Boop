@@ -1,3 +1,4 @@
+//User interface logic
 $(document).ready(function() {
   $("#input-form").submit(function(event){
     event.preventDefault();
@@ -41,6 +42,7 @@ $(document).ready(function() {
     }
     $("#numberResult").text(integers)
     $("#notiResult").text(result)
-    
+
   });
 });
+//end of user interface logic
