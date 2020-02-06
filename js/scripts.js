@@ -5,6 +5,11 @@ $(document).ready(function() {
     var num = $("#user-input").val();
     var number = parseInt(num)
 
+    $("#numberResult").text(integers)
+    $("#notiResult").text(result)
+//end of User Interface logic
+    
+//Business logic
     var result= []
     var integers = []
     var beep = "Beep!"
@@ -40,9 +45,7 @@ $(document).ready(function() {
     for (x=0; x <= number; x++) {
       integers.push(x)
     }
-    $("#numberResult").text(integers)
-    $("#notiResult").text(result)
 
   });
 });
-//end of user interface logic
+//end of business logic
