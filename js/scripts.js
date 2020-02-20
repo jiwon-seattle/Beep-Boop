@@ -1,11 +1,11 @@
 //User interface logic
 $(document).ready(function() {
   $("#input-form").submit(function(event){
-    event.preventDefault();
-    var num = $("#user-input").val();
-    var number = parseInt(num);
-    var pigLatin = latin(num);
-    var intNumbers = numbers(number);
+    event.preventDefault()
+    var num = $("#user-input").val()
+    var number = parseInt(num)
+    var pigLatin = latin(num)
+    var intNumbers = numbers(number)
 
     $("#numberResult").text(integers)
     $("#notiResult").text(pigLatin)
